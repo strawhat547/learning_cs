@@ -2,7 +2,7 @@
 
 /**
  * 
- * @param {*} num 
+ * @param {number} num 
  */
 function print_num(num) {
     console.log(num) 
@@ -24,7 +24,7 @@ console.log('*******************');
 
 /**
  * 
- * @param {*} num 
+ * @param {number} num 
  */
 function print_nums(num) {
     if(num < 4) {
