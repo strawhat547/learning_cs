@@ -29,7 +29,7 @@ function in_order_traverse(root) {
 }
 
 /**
- * post traverse
+ * postorder traverse
  * @param {TreeNode} root 
  * @returns 
  */
