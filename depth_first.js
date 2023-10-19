@@ -5,7 +5,7 @@ function TreeNode(val) {
 }
 
 /**
- * 前序遍历
+ * preorder traverse
  * @param {TreeNode} root 
  * @returns 
  */
@@ -17,7 +17,7 @@ function pre_order_traverse(root) {
 }
 
 /**
- * 中序遍历
+ * inorder traverse
  * @param {TreeNode} root 
  * @returns 
  */
@@ -29,7 +29,7 @@ function in_order_traverse(root) {
 }
 
 /**
- * 后序遍历
+ * post traverse
  * @param {TreeNode} root 
  * @returns 
  */
