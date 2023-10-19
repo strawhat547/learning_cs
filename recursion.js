@@ -14,6 +14,23 @@ function print_num(num) {
     }
 }
 
+/***
+ * diagram
+ * |                        |
+ * |    print_num(0)        |
+ * |    console.log(0)      |
+ * |    print_num(0 + 1)    |
+ * |    console.log(1)      |
+ * |    print_num(1 + 1)    |
+ * |    console.log(2)      |
+ * |    print_num(2 + 1)    |
+ * |    console.log(3)      |
+ * |    print_num(3 + 1)    |
+ * |    console.log(4)      |
+ * |________________________|
+ *          call stack
+ */
+
 print_num(0)
 /**
  * 0
@@ -35,6 +52,22 @@ function print_nums(num) {
     }
     console.log(num);
 }
+
+/***
+ * |                            |
+ * |    print_nums(0)           |
+ * |    print_nums(0 + 1)       |
+ * |    print_nums(1 + 1)       |
+ * |    print_nums(2 + 1)       |
+ * |    print_nums(3 + 1)       |
+ * |    console.log(4)          |
+ * |    console.log(3)          |
+ * |    console.log(2)          |
+ * |    console.log(1)          |
+ * |    console.log(0)          |
+ * |____________________________|   
+ *          call stack
+ */
 
 print_nums(0)
 
