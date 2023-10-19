@@ -12,6 +12,13 @@ function print_num(num) {
 }
 
 print_num(0)
+/**
+ * 0
+ * 1
+ * 2
+ * 3
+ * 4
+ */
 
 console.log('*******************');
 
@@ -27,3 +34,11 @@ function print_nums(num) {
 }
 
 print_nums(0)
+
+/**
+ * 4
+ * 3
+ * 2
+ * 1
+ * 0
+ */
