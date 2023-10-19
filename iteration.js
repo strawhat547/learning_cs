@@ -1,6 +1,6 @@
 /**
  * iteration
- * <a>https://en.wikipedia.org/wiki/Iteration</a>
+ * https://en.wikipedia.org/wiki/Iteration
  */
 
 /**
@@ -41,7 +41,7 @@ console.log(sum(100));
 //5050
 
 /**
- * <a>https://en.wikipedia.org/wiki/Fibonacci_sequence</a>
+ * https://en.wikipedia.org/wiki/Fibonacci_sequence
  * @param {number} num 
  * @returns number
  */
