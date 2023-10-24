@@ -2,7 +2,7 @@
 
 /**
  * bubble sort: every outer cycle makes max number in nums array sorted on the right side. 
- * o(n^2)
+ * O(n^2)
  * @param {Array} nums 
  * @returns sorted array
  */
