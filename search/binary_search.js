@@ -15,7 +15,7 @@ function binary_search(nums, target) {
             return mid
         }else if(target > nums[mid]) {// on the [mid + 1, right]
             left = mid + 1
-        }else{// one the [left, mid - 1]
+        }else{// on the [left, mid - 1]
             right = mid - 1
         }
     }
